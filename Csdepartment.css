@@ -1,0 +1,101 @@
+body{
+    background: rgb(243, 242, 242);
+}
+.heading {
+    text-align: center; 
+    border: 5px solid #006633; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    margin: auto; 
+    padding: 20px; 
+    max-width: 950%; 
+    border-radius: 5px; 
+    background-color: #fff; 
+  }
+  
+  .heading h1,
+  .heading h5 {
+    margin: 10px 0; 
+  }
+  
+  .intro {
+    padding: 20px; 
+  }
+
+
+  /* Style for the table itself */
+.table {
+    width: 100;
+    border-collapse: separate; 
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* Style for table headers */
+  .table th {
+    background-color: #006633; 
+    color: white; 
+    padding: 10px; 
+  }
+  
+  /* Style for table data cells */
+  .table td {
+    padding: 10px; 
+    border: 1px solid #ddd; 
+  }
+  
+ 
+  .link {
+    font-weight: bold; 
+    font-size: 17px; 
+    text-align: center;  
+    padding: 20px;
+    color: #0f0f0f;
+}
+
+/* This targets the <a> tag directly for the hover state */
+.link a:hover {
+    color: #FFCC33; 
+    text-decoration: underline; 
+}
+
+.link a {
+    color: #006633; 
+    text-decoration: none; 
+}
+
+
+.head{
+    text-align: center; 
+    border: 1px solid #FFCC33;; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    margin: auto; 
+    padding: 10px;
+    max-width: 100%; 
+    border-radius: 5px; 
+    background-color: #FFCC33; 
+  
+}
+
+.head1{
+  text-align: center; 
+  border: 1px solid #FFCC33;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+  margin: auto; 
+  padding: 10px; 
+  max-width: 100%; 
+  border-radius: 5px; 
+  background-color: #FFCC33; 
+
+}
+
+
+.submit-button{
+    background-color: #006633;
+    color: white;
+    padding: 5px 20px 5px 20px;
+}
+
+.container{
+    padding-right:200px;
+    padding-left:200px;
+}
